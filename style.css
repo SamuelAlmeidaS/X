@@ -47,7 +47,20 @@
 .content-aboutMe {
     width: 90%;
     margin: auto;
-    background-color: #FFF;
+    height: 100%;
+    display: flex;
+}
+
+.aboutMe-img {
+    flex:1;
+    background-image: url("./asset/img/Hand\ coding-amico.svg");
+    background-repeat: no-repeat;
+    margin-bottom: 80px;
+}
+.aboutMe-text {
+    flex: 1;
+    display: flex;
+    align-items: center;
 }
 
 .aboutMe-text ul {
@@ -56,5 +69,7 @@
 
 .aboutMe-text ul li {
     margin-top: 25px;
+    font-size: 30px;
+    color: #FFF;
 }
 
