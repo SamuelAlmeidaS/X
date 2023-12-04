@@ -38,4 +38,23 @@
     color: #ffffffd5;
 }
 
+.container-aboutMe {
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(17, 17, 17);
+}
+
+.content-aboutMe {
+    width: 90%;
+    margin: auto;
+    background-color: #FFF;
+}
+
+.aboutMe-text ul {
+    list-style: none;
+}
+
+.aboutMe-text ul li {
+    margin-top: 25px;
+}
 
