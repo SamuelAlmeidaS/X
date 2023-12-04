@@ -4,19 +4,13 @@
     box-sizing: border-box;
 } 
 
-body {
-    background-image: url(./asset/img/bg-home.jpg);
-    background-position: center;
-    background-size: cover;
-}
-
 .container-home {
     background-color: rgba(0, 0, 0, 0.473);
     width: 100%;
     height: 100vh;
     display: flex;
     align-items: center;
-   justify-content: center;
+    justify-content: center;
 }
 
 .home {
@@ -40,32 +34,8 @@ body {
     font-size: 20px;
 }
 
-h1:hover {
-    color: blueviolet;
+.home a:hover {
+    color: #ffffffd5;
 }
 
-/* section:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url(
-    https://media.geeksforgeeks.org/wp-content/uploads/20200828184719/rain-300x300.png);
-    animation: rain 0.5s linear infinite;
-
-}
-
-@keyframes rain {
-    0% {
-        background-position: 0 0;
-        opacity: 1;
-    }
-
-    100% {
-        background-position: 8% 80%;
-        opacity: 1;
-    }
-} */
 
